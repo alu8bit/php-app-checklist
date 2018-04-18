@@ -1,4 +1,4 @@
-# PHP project checklist
+# PHP application checklist
 
 List of useful approaches to improve and check your PHP-based project.
 
@@ -16,8 +16,11 @@ List of useful approaches to improve and check your PHP-based project.
 - [Scalable and performance section](#scalable-and-performance-section)
 
 ### Base section
-* Try to use last stable PHP version?
+* Try to use last stable PHP version.
+  * [Supported versions](http://php.net/supported-versions.php)
 * Try to be aware of last changes, technologies and tools.
+  * [PHP: The Right Way](http://www.phptherightway.com/) - best PHP practices.
+  * [Awesome PHP](https://github.com/ziadoz/awesome-php) - list of PHP libraries, resources and shiny things.
 
 ### Architecture section
 * Try to use well known and supported framework, not your own. For small projects you can use microframeworks.
