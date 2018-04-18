@@ -16,18 +16,22 @@ List of useful approaches to improve and check your PHP-based project.
 - [Scalable and performance section](#scalable-and-performance-section)
 
 ### Base section
-* Try to use last stable PHP version.
+* Do you use last stable PHP version?
   * [Supported versions](http://php.net/supported-versions.php)
 * Try to be aware of last changes, technologies and tools.
   * [PHP: The Right Way](http://www.phptherightway.com/) - best PHP practices.
   * [Awesome PHP](https://github.com/ziadoz/awesome-php) - list of PHP libraries, resources and shiny things.
 
 ### Architecture section
-* Try to use well known and supported framework, not your own. For small projects you can use microframeworks.
+* Do you use well supported, not outdated and popular PHP framework, not your own?
 * Do you have a lot of custom solutions? Maybe it’s easier to use external libraries, PHP extensions and SPL?
+  * [The PHP package repository](https://packagist.org)
+  * [Standard PHP Library](http://php.net/manual/en/book.spl.php)
 * Do you use dependency manager?
-* Try to follow by best practices like SOLID, KISS, DRY and etc.
-* Try to create common solution, not unique. 
+  * [Composer](https://getcomposer.org), [17 useful tips](https://blog.martinhujer.cz/17-tips-for-using-composer-efficiently/)
+* Try to follow by best coding practices like SOLID, KISS, DRY and etc.
+* Try to create common solution, not unique.
+  * [PHP Package Checklist](http://phppackagechecklist.com/#1,2,3,4,5,6,7,8,9,10,11,12,13,14)
 
 ### Code section
 * Do you use code version control system and appropriate branching model?
