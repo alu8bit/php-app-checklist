@@ -24,11 +24,14 @@ List of useful approaches to improve and check your PHP-based project.
 
 ### Architecture section
 * Do you use well supported, not outdated and popular PHP framework, not your own?
+  * [Laravel](https://laravel.com), [Symfony](https://symfony.com), [Zend Framework](https://framework.zend.com/), [Yii](https://www.yiiframework.com) and etc. - frameworks.
+  * [Slim](https://www.slimframework.com), [Lumen](https://www.slimframework.com) and etc. - microframeworks.
 * Do you have a lot of custom solutions? Maybe it’s easier to use external libraries, PHP extensions and SPL?
   * [The PHP package repository](https://packagist.org)
+  * [PHP extentions](http://php.net/manual/en/extensions.php)
   * [Standard PHP Library](http://php.net/manual/en/book.spl.php)
 * Do you use dependency manager?
-  * [Composer](https://getcomposer.org), [17 useful tips](https://blog.martinhujer.cz/17-tips-for-using-composer-efficiently/)
+  * [Composer](https://getcomposer.org), [One page Doc](http://composer.json.jolicode.com), [17 useful Composer tips](https://blog.martinhujer.cz/17-tips-for-using-composer-efficiently/)
 * Try to follow by best coding practices like SOLID, KISS, DRY and etc.
 * Try to create common solution, not unique.
   * [PHP Package Checklist](http://phppackagechecklist.com/#1,2,3,4,5,6,7,8,9,10,11,12,13,14)
