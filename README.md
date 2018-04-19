@@ -39,9 +39,9 @@ List of useful approaches to improve and check your PHP-based project.
 ### Code section
 * Do you use code version control system and appropriate branching model?
   * [Git](https://git-scm.com), [Mercurial](https://www.mercurial-scm.org) - source control management tools.
-  * [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow), [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html), [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/) - branching models
+  * [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow), [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html), [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/) - branching models.
 * Do you have common code style? Does it apply automatically?
-  [PHP CS Fixer](http://cs.sensiolabs.org), [PHP Code Sniffer](https://github.com/squizlabs/PHP_CodeSniffer)
+  * [PHP CS Fixer](http://cs.sensiolabs.org), [PHP Code Sniffer](https://github.com/squizlabs/PHP_CodeSniffer)
 * Do you have automatically generated code documentation for your app and API?
 * Do you have code review and acceptance policy?
 * Do you have code auto-completion and live templates, skeletons for commonly used files?
@@ -57,7 +57,7 @@ List of useful approaches to improve and check your PHP-based project.
 * Do you use last HTML version? 
 
 ### Security section
-* Try to follow OWASP Top 10.
+* Try to follow [OWASP Top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project).
 * Always use protected connection for your web application.
 * Do you check app dependencies for vulnerabilities? 
 * Do you have password and other sensitive data saving policy? 
