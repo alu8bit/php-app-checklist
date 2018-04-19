@@ -38,8 +38,11 @@ List of useful approaches to improve and check your PHP-based project.
 
 ### Code section
 * Do you use code version control system and appropriate branching model?
+  * [Git](https://git-scm.com), [Mercurial](https://www.mercurial-scm.org) - source control management tools.
+  * [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow), [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html), [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/) - branching models
 * Do you have common code style? Does it apply automatically?
-* Do you have automatically generated code documentation for your app?
+  [PHP CS Fixer](http://cs.sensiolabs.org), [PHP Code Sniffer](https://github.com/squizlabs/PHP_CodeSniffer)
+* Do you have automatically generated code documentation for your app and API?
 * Do you have code review and acceptance policy?
 * Do you have code auto-completion and live templates, skeletons for commonly used files?
 
