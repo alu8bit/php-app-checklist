@@ -59,8 +59,11 @@ List of useful approaches to improve and check your PHP-based project.
 ### Security section
 * Try to follow [OWASP Top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project).
 * Always use protected connection for your web application.
-* Do you check app dependencies for vulnerabilities? 
-* Do you have password and other sensitive data saving policy? 
+  * [Let’s Encrypt](https://letsencrypt.org), [SSL For Free](https://www.sslforfree.com) - free SSL certificates.
+* Do you check project code for vulnerabilities?
+  * [RIPS](http://rips-scanner.sourceforge.net), [composer.lock checker](https://security.sensiolabs.org/check)
+* Do you have password and other sensitive data saving policy?
+  * [OWASP Cheat Sheet](https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet), [Hashing](http://php.net/manual/en/faq.passwords.php)
 
 ### Administration section
 * Do you dev or testing environment and splited configuration for them? 
