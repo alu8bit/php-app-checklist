@@ -21,6 +21,7 @@ List of useful approaches to improve and check your PHP-based project.
 * Try to be aware of last changes, technologies and tools.
   * [PHP: The Right Way](http://www.phptherightway.com/) - best PHP practices.
   * [Awesome PHP](https://github.com/ziadoz/awesome-php) - list of PHP libraries, resources and shiny things.
+  * [The twelve-factor app](https://www.12factor.net/) - Methodology for building software-as-a-service apps.
 
 ### Architecture section
 * Do you use well supported, not outdated and popular PHP framework, not your own?
