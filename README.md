@@ -16,7 +16,7 @@ List of useful approaches to improve and check your PHP-based project.
 - [Scalable and performance section](#scalable-and-performance-section)
 
 ### Base section
-* Do you use the lastest stable PHP version?
+* Do you use the latest stable PHP version?
   * [Supported versions](http://php.net/supported-versions.php)
 * Try to be aware of last changes, technologies and tools.
   * [PHP: The Right Way](http://www.phptherightway.com/) - best PHP practices.
